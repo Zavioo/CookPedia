@@ -1,0 +1,73 @@
+<app-header></app-header>
+
+<div class="container">
+    <div class="row p-5 bg-success ">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+            <h2 class="text-white"> Welcome to our website</h2>
+            <p class="text-white mb3 "> The Easiest Way
+                To Make Your
+                Favorite Meal </p>
+            <button class="btn btn-light">Get Started</button>
+        </div>
+        <div class="col-lg-6">
+            <img class=" landingImg " style="width: 400px;"
+                src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?cs=srgb&dl=pexels-ella-olsson-572949-1640772.jpg&fm=jpg">
+        </div>
+    </div>
+
+    <!-- popular recipes -->
+    <div class="my-5 py-5">
+        <h1>Popular Recipes of the Week</h1>
+        <div class="d-flex justify-content-between">
+            <p>Our Most popular recipes of the Week </p>
+            <a routerLink="recipes">View all</a>
+        </div>
+        <div class="row my-3">
+            <!-- each recipe card -->
+            <div class="col-lg-4">
+                <div class="p-3">
+                    <img class="card-img-top"
+                        src="https://st4.depositphotos.com/4590583/28898/i/450/depositphotos_288989496-stock-photo-banner-food-top-view-free.jpg"
+                        alt="">
+                    <h3 class=" card-title mx-5 my-2">Name</h3>
+                </div>
+            </div>
+
+            <!-- Banner -->
+            <div style="height: 400px ; background-image: url('https://st4.depositphotos.com/4590583/28898/i/450/depositphotos_288989496-stock-photo-banner-food-top-view-free.jpg'); background-size: cover;"
+                class="row align-items-center my-5 ">
+
+                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <div class="bg-light rounded w-75 p-5 ">
+                        <h2 class="text-center m-3">Our Story</h2>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad aperiam quia eligendi
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Download app -->
+            <div style="height: 450px; " class="bg-success mb-3  p-3 row">
+                <div class="col-lg-4">
+
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="text-white">Download Our App</h2>
+                    <img class="m-3 " style="width: 400px; border-radius: 50px;"
+                        src="https://apptopia.com/blog/wp-content/uploads/2023/09/download-hero-2-2048x1232.webp"
+                        alt="">
+                    <div class="">
+                        <button class="btn btn-light m-3"> Android </button>
+                        <button class="btn btn-light m-3"> Ios</button>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+            </div>
+        </div>
+
+        <app-footer></app-footer>

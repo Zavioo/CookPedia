@@ -1,0 +1,10 @@
+.landingImg {
+    transition: 5s;
+    border-radius: 500px;
+}
+
+.landingImg:hover {
+    scale: 1.12s;
+    transition: ease-in-out 3s; 
+    rotate: 360deg;
+}
